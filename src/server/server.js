@@ -22,10 +22,10 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>Full Stack Web Developer based in London</title>
+        <title>Full Stack Web Developer. Designer. Desde Chile para el mundo</title>
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
-      <body>
+      <body class="theme-base-08">
         <div id="root">${html}</div>
         <script>
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}; 

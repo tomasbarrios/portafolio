@@ -25,22 +25,22 @@ class Sidebar extends Component {
 		  </div>
 
 		  <nav className="sidebar-nav">
-		    <Link to="/home" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Home</Link>
-		    <Link to="/portfolio" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Portfolio</Link>
-		    <Link to="/services" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">My Services</Link>
+		    /*<Link to="/home" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Portfolio</Link>*/
+		    <Link to="/portfolio" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Portfolio</Link>
+		    <Link to="/services" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">Servicios</Link>
 		    <Link to="/about" className="sidebar-nav-item" onClick={this.eventCloseSidebar} activeClassName="active">About</Link>
 		  </nav>
 
 		  <div className="sidebar-item sidebar-footer">
 
 		    <p>
-				Visit <a href="https://github.com/caljrimmer">My GitHub Repo</a><br/>
-				Visit <a href="https://www.linkedin.com/in/callumrimmer">My Linkedin</a><br/>
-				Visit <a href="https://twitter.com/caljrimmer">My Twitter</a><br/>
+				Visita <a href="https://github.com/tomasbarrios">My GitHub Repo</a><br/>
+				Visita <a href="https://www.linkedin.com/in/tomasbarrios">My Linkedin</a><br/>
+				Visita <a href="https://codepen.com/tomasbarrios">Codepen</a><br/>
 		    </p>
 
 		    <p>
-		    	Design based on <a href="http://lanyon.getpoole.com/"> Lanyon Theme</a> 
+		    	React App basada en una idea de <a href="http://www.callumrimmer.co.uk/">Callum Rimmer</a> 
 		    </p>
 
 		  </div>

@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 var merge = require('merge');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+// let extractSCSS = new ExtractTextPlugin('styles/test.scss');
 
 var webpackConfig = {
   output: {
@@ -38,7 +39,6 @@ if (process.env.NODE_ENV === 'production') {
           NODE_ENV: JSON.stringify('production')
         }
       }),
-      new ExtractTextPlugin("app.css"),
       new webpack.optimize.UglifyJsPlugin({minimize: true})
     ]  
   });
@@ -75,14 +75,26 @@ if (process.env.NODE_ENV === 'production') {
         }
       },
       { test: /\.(png|jpg|gif|jpeg)$/, loader: 'url-loader?limit=8192'},
-      { test: /\.css$/, loader: 'style-loader!css-loader' }
+      
+      // { test: /\.scss$/, loaders: ['style', 'css', 'sass'] },
+      // Loader (otro plugin)
+      // { test: /\.scss$/, loader: extractSCSS.extract(['css','sass']) }
+      { test: /\.scss$/, loaders: [ 'style', 'css', 'sass?sourceMap' ] }
+      
+      // { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap') }
+      // { test: /\.css$/, loader: 'style-loader!css-loader' } 
     ]},
     entry : [
       'webpack-hot-middleware/client',
       './src/client/index.js'
     ],
+    // sassLoader: {
+    //     includePaths: [ 'client/style' ]
+    // },
     plugins : [
       new webpack.HotModuleReplacementPlugin()
+      // extractSCSS,
+
     ]  
   });
   

@@ -10,7 +10,9 @@ import createBrowserHistory from 'history/lib/createBrowserHistory'
 import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 
-import "../../styles/index.css";
+// import "../../styles/index.css";
+import "../../styles/scss/test.scss";
+
 
 const history = createBrowserHistory();
 const initialState = window.__INITIAL_STATE__;

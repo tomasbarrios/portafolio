@@ -23,7 +23,7 @@ class About extends Component {
 
       	  <div className="about">
 
-      	  	<h3>About Me</h3>
+      	  	<h3>Sobre Mi</h3>
 
       	  	<p>I have been developing web sites for over 15 years. Over the years, I have adopted, mastered and moved on from many languages, frameworks and architectures. I currently focus on Javascript heavy web application development.</p> 
 

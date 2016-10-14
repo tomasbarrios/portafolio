@@ -43,3 +43,7 @@ http://localhost:3002
 ## Credit
 
 App template was based on [Lanyon Theme](https://github.com/poole/lanyon) by [mdo](https://github.com/mdo)
+
+## Instalar nuevas dependencias
+
+npm install <nombre-dependencia> --save

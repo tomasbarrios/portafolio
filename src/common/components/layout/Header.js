@@ -7,8 +7,8 @@ class Header extends Component {
     <div className="masthead">
 			<div className="container">
 			  <h3 className="masthead-title">
-			    <a href="/" title="Home">Callum Rimmer</a>
-			    <small>Full Stack Web Developer based in London</small>
+			    <a href="/" title="Home">Digital Craft</a>
+			    <small>Desarrollo Web Full Stack de Santiago, Chile</small>
 			  </h3>
 			</div>
 		</div>

@@ -20,18 +20,31 @@ class Portfolio extends Component {
 	}
 
     const PortfolioRows = portfolio.map((row) => {
-    	const classname = classNames('portfolio_item','clearfix',row.classname);
+    	const classname = classNames('portfolio_item','rombo',row.classname);
         return (
-            <div key={row.title} className={classname}>
-				<h2><a href={row.link} target="_blank">(visit site)</a> {row.title}</h2>
-				{RoleRows(row.roles)}
-			</div>
+          
+          <div key={row.title} className={classname}>
+    				<h2><a href={row.link} target="_blank">(visit site)</a> {row.title}</h2>
+    				{RoleRows(row.roles)}
+    			</div>
+        
         )
     });
 
     return (
-        <div className="posts">
-        	{PortfolioRows}
+        <div>
+          <div className="posts container">
+            <div className="post banner">
+            <p className="post-title">Por Humanos, para humanos </p>
+            <h1>Construyo aplicaciones web <em>usables</em>, <em>rápidas</em> y <em>mantenibles</em>.</h1>
+            <p>Para <em>agencias</em>, <em>start-ups</em> y <em>Pymes</em>.</p>
+          </div>
+            
+
+        </div>
+          <div className="posts portfolio">
+          	{PortfolioRows}
+          </div>
         </div>
     );
 

@@ -1,104 +1,118 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
-    	classname : 'goldmans',
+    	link : 'http://2015.novasur.cl',
+    	title : 'Novasur',
+    	classname : 'novasur',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			skills : 'Sass, JS, Youtube API, Gulp'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
+    			skills : 'Drupal 7, MySQL, Apache Solr'
     		}
     	]
     },
     {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
-    	classname : 'orange',
+    	link : 'http://www.omnigraf.cl',
+    	title : 'Omnigraf',
+    	classname : 'omnigraf',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, WebRTC, FireFoxOS'
+    			skills : 'Backbone, Sass, HTML5'
     		},
     		{
     			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
+    			skills : 'Rails 3, PostgreSQL'
     		}
     	]
     },
     {
-    	link : 'http://www.pwul.net',
-    	title : 'Pay What You Like',
-    	classname : 'pwul',
+    	link : 'http://beta.subela.cl',
+    	title : 'Súbela Radio',
+    	classname : 'subela',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			skills : 'Backbone, Marionette, HTML5, Audio Streaming'
     		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Gulp'
-    		}
+            {
+                title : 'Android Developer',
+                skills : 'Android, WebView, Audio Streaming'
+            }
     	]
     },
     {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
-    	classname : 'timeout',
+    	link : 'http://www.tourtrail.com',
+    	title : 'Tourtrail',
+    	classname : 'tourtrail',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
+    			skills : 'Backbone, Marionette, CSS3, HTML5'
+    		},
+            {
+                title : 'Back End Developer',
+                skills : 'Rails 3, Capistrano, PostgreSQL'
+            },
+            {
+                title : 'Android Developer',
+                skills : 'Geolocalization, Offline Maps, Offline API sync'
+            }
     	]
     },
     {
-    	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
-    	classname : 'tesco',
+        // link : 'http://www.shipserv.com',
+        title : 'Pronto Verano',
+        classname : 'pronto',
+        roles : [
+            {
+                title : 'Front End Developer',
+                skills : 'Mean Stack JS, CSS3, HTML5, Firebase'
+            }
+        ]
+    },
+    {
+        // link : 'http://www.libon.com/',
+        title : 'Scaldasonno',
+        classname : 'scaldasonno',
+        roles : [
+            {
+                title : 'Front End Developer',
+                skills : 'Angular JS, Firebase'
+            }            
+        ]
+    },
+    {
+    	// link : 'http://onlinelibrary.wiley.com',
+    	title : 'Copa Chile MTS',
+    	classname : 'copa-chile',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
+    			skills : 'JS, CSS3, HTML5, Firebase'
     		}
     	]
     },
-    {
-    	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
-    	classname : 'wiley',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.covestor.com',
-    	title : 'Covestor',
-    	classname : 'covestor',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
+        {
+        // link : 'http://onlinelibrary.wiley.com',
+        title : 'Etienne',
+        classname : 'etienne',
+        roles : [
+            {
+                title : 'Front End Developer',
+                skills : 'JS, CSS3, HTML5, Firebase'
+            },
+            {    
+                title : 'Backend Developer',
+                skills : 'Wordpress'
+            }
+
+        ]
     }
+
   ]
 }
